@@ -1,0 +1,27 @@
+===== Verification of Prior Knowledge ===== 
+
+The verification for expected prior knowledge is done via an mandatory entrytest. You can register to the entrytest via the RESET-Tool.
+Only after the positive passing of the entrytest you are eligible to participate in the groupphase.
+By participating in the entrytest you will receive a certificate.
+
+===== Scope of the Entrytest ===== 
+
+During the entrytest you have to solve a small algorithmic task and communicate with a given REST-api.
+You have to use the Lab-Infrastructure (Python3, Java 1.8+, php_cli and nodejs are installed in the Lab!)
+Documentation and access to the api will be granted during the test.
+
+===== Sample Entrytest ===== 
+
+We'll provided a sample entrytest for you. The workflow of communicating with the solution checker will be the same in the real entrytest.
+You are allowed to upload your communication code samples here and use it during your entrytest.
+
+The Sample Entrytest will be available on Saturday 08.10.
+
+The uploaded files have to be your own work!
+
+You can start the ASE-Entrytest.jar via commandline:
+
+java -jar ./ASE-Entrytest-WS16.jar
+if you are colorblind you can use "mode.colorblind":
+
+java "-Dmode.colorblind=true" -jar .\ASE-Entrytest-WS16.jar
